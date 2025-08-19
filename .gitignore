@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Data & artifacts
+artifacts/
+data/
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
