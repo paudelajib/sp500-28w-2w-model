@@ -10,9 +10,13 @@ A compact ML pipeline that:
 #How to run the code
 
 python -m venv .venv
+
 source .venv/bin/activate
+
 pip install -r requirements.txt
 
 python -m src.train --years 4 --top_n 50 --model gb
+
 python -m src.backtest --years 4 --top_n 50 --model gb --out artifacts/backtest_50_gb.csv
+
 python -m src.predict  --years 4 --top_n 50 --model gb --out artifacts/predictions_next2w_50_gb.csv
