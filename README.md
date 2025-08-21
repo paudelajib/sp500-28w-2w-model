@@ -7,7 +7,8 @@ A compact ML pipeline that:
 - Trains a model with time-series CV.
 - Produces a prediction table for today's Top 100.
 
-##How to run the code
+#How to run the code
+
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
